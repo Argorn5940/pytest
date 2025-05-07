@@ -1,6 +1,6 @@
-# import pytest
-# from bank_account import BankAccount
+import pytest
+from bank_account import BankAccount
 
-# @pytest.fixture
-# def initial_amount():
-#   return BankAccount(1000)
+@pytest.fixture
+def initial_amount():
+  return BankAccount(1000)
